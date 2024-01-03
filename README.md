@@ -31,4 +31,7 @@ npx json-server --watch db.json --port 3030
 **or you can install globally typing ```npm install -g json-server```** 
 after that can run ```json-server --watch db.json```
 
+columns of the table are dynamically added using the array same as records.
+columns are not predefined.
+
 https://www.youtube.com/watch?v=Rm4__WgPncI
