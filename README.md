@@ -32,10 +32,13 @@ npx json-server --watch db.json --port 3030
 after that can run ```json-server --watch db.json```
 
 columns of the table are dynamically added using the array same as records.
- {columns.map((c, i) => (
-                            <th key={i}>{c}</th>
+
+{columns.map((column, key) => (
+                            <th key={key}>{column}</th>
                         ))}
+
 columns are not predefined like this.
+
                             <th>Id</th>
                             <th>Name</th>
                             <th>Email</th>
