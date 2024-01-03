@@ -32,6 +32,14 @@ npx json-server --watch db.json --port 3030
 after that can run ```json-server --watch db.json```
 
 columns of the table are dynamically added using the array same as records.
-columns are not predefined.
+ {columns.map((c, i) => (
+                            <th key={i}>{c}</th>
+                        ))}
+columns are not predefined like this.
+                            <th>Id</th>
+                            <th>Name</th>
+                            <th>Email</th>
+therefore setColumns(Object.keys(res.data[0])) line dynamically extracts the column names from the keys of the first object
+
 
 https://www.youtube.com/watch?v=Rm4__WgPncI
