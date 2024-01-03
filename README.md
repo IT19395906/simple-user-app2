@@ -20,6 +20,12 @@ npm install json-server
 ```bash
 npx json-server --watch db.json
 ```
+or 
+specify port
+```bash
+npx json-server --watch db.json --port 3030
+```
+
 **just ``` json-server --watch db.json``` won't work  because you have installed it locally you have to use npx** 
 
 **or you can install globally typing ```npm install -g json-server```** 
