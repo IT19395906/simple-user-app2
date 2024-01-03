@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "amal",
+      "email": "amal@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "amal",
+      "email": "amal@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "amal",
+      "email": "amal@gmail.com"
+    },
+    {
+      "id": 4,
+      "name": "amal",
+      "email": "amal@gmail.com"
+    },
+    {
+      "id": 5,
+      "name": "amal",
+      "email": "amal@gmail.com"
+    },
+    {
+      "id": 6,
+      "name": "amal",
+      "email": "amal@gmail.com"
+    },
+    {
+      "id": 7,
+      "name": "amal",
+      "email": "amal@gmail.com"
+    },
+    {
+      "id": 8,
+      "name": "amal",
+      "email": "amal@gmail.com"
+    }
+  ]
+}
