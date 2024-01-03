@@ -1,6 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export default function Add() {
     const [inputData, setInputData] = useState({ name: '', email: '' });
@@ -18,6 +18,7 @@ export default function Add() {
     return (
         <div className="d-flex w-100 mt-5 justify-content-center align-items-center">
             <div className=" w-50 bg-light p-5 border">
+                <h1>Add a user</h1>
                 <form onSubmit={handleSubmit}>
                     <div>
                         <label htmlFor="name">Name</label>
@@ -31,6 +32,7 @@ export default function Add() {
                     </div>
                     <br />
                     <button className="btn btn-success">Submit</button>
+                    <Link to="/" className="btn btn-primary ms-3">Back</Link>
                 </form>
             </div>
         </div>

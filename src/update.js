@@ -5,7 +5,7 @@ import axios from "axios";
 export default function Update() {
 
     const { id } = useParams();
-    const [data, setData] = useState([]);
+    const [data, setData] = useState({ name: '', email: '' });
     const navigate = useNavigate();;
 
     useEffect(() => {
