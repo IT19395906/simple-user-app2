@@ -45,5 +45,6 @@ columns are not predefined like this.
 ```
 therefore setColumns(Object.keys(res.data[0])) line dynamically extracts the column names from the keys of the first object
 
+**useParams() to extract the ID from the route.** 
 
 https://www.youtube.com/watch?v=Rm4__WgPncI
